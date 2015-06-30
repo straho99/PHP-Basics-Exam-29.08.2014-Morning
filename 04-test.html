@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test 04</title>
+
+</head>
+<body>
+<form action="04-softuni-tunes.php" method="get">
+    <p>Songs:</p>
+    <textarea name="text" cols="70" rows="10"></textarea>
+    <p>Artist:</p>
+    <input type="text" name="artist"/><br/>
+    <p>Sort by:</p>
+    <select name="property">
+        <option value="name">Name</option>
+        <option value="genre">Genre</option>
+        <option value="downloads">Downloads</option>
+        <option value="rating">Rating</option>
+    </select><br/>
+    <p>Order by:</p>
+    <select name="order">
+        <option value="ascending">Ascending</option>
+        <option value="descending">Descending</option>
+    </select><br/>
+    <input type="submit"/>
+</form>
+</body>
+</html>
